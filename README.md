@@ -4,11 +4,10 @@
 
 This project is an **end-to-end Machine Learning application** designed to detect fraudulent credit card transactions.
 
-It compares multiple models including **Random Forest** and **XGBoost**, and uses **SMOTE (Synthetic Minority Oversampling Technique)** to handle class imbalance.
+It compares multiple models, including **Random Forest** and **XGBoost**, and uses **SMOTE (Synthetic Minority Oversampling Technique)** to handle class imbalance.
 
 The final model is deployed using **Streamlit** for real-time predictions.
 
----
 
 ## 🚀 Features
 
@@ -18,7 +17,7 @@ The final model is deployed using **Streamlit** for real-time predictions.
 - Model comparison (Random Forest vs XGBoost)  
 - Displays prediction probability  
 
----
+
 
 ## 🧠 Machine Learning Pipeline
 
@@ -40,7 +39,7 @@ Random Forest was selected as the final model due to:
 - More stable predictions  
 - Lower overfitting compared to XGBoost  
 
----
+
 
 ## 🛠️ Tech Stack
 
@@ -51,7 +50,7 @@ Random Forest was selected as the final model due to:
 - Imbalanced-learn (SMOTE)  
 - Pandas / NumPy  
 
----
+
 
 ## 📂 Project Structure
 - app.py                    # Streamlit app 
