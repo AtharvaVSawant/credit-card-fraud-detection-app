@@ -1,28 +1,56 @@
+# 💳 Credit Card Fraud Detection ML App
+
+## 📌 Project Overview
+
+This project is an **end-to-end Machine Learning application** designed to detect fraudulent credit card transactions.
+
+It compares multiple models including **Random Forest** and **XGBoost**, and uses **SMOTE (Synthetic Minority Oversampling Technique)** to handle class imbalance.
+
+The final model is deployed using **Streamlit** for real-time predictions.
 
 ---
 
-## 📊 Model Output
+## 🚀 Features
 
-- ✅ Legitimate Transaction (Low Fraud Probability)  
-- 🚨 Fraudulent Transaction (High Fraud Probability)  
-
----
-
-## 📈 Future Improvements
-
-- Hyperparameter tuning  
-- Add more advanced models (Deep Learning)  
-- Deploy on cloud (Streamlit Cloud / AWS)  
-- Add transaction visualization dashboard  
+- Detects fraudulent transactions in real-time  
+- Interactive web interface using Streamlit  
+- Handles imbalanced data using SMOTE  
+- Model comparison (Random Forest vs XGBoost)  
+- Displays prediction probability  
 
 ---
 
-## 👨‍💻 Author
+## 🧠 Machine Learning Pipeline
 
-Your Name
+### 🔹 Data Preprocessing
+
+- Feature scaling using StandardScaler  
+- Handling class imbalance using SMOTE  
+
+### 🔹 Models Used
+
+- Random Forest Classifier ✅ (Best performing)  
+- XGBoost Classifier  
+
+### 🔹 Model Selection
+
+Random Forest was selected as the final model due to:
+
+- Better performance on validation data  
+- More stable predictions  
+- Lower overfitting compared to XGBoost  
 
 ---
 
-## 📜 License
+## 🛠️ Tech Stack
 
-This project is for educational purposes.
+- Python  
+- Streamlit  
+- Scikit-learn  
+- XGBoost  
+- Imbalanced-learn (SMOTE)  
+- Pandas / NumPy  
+
+---
+
+## 📂 Project Structure
