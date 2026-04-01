@@ -62,3 +62,14 @@ Random Forest was selected as the final model due to:
 - requirements.txt          # Dependencies 
 - README.md                 # Documentation
 
+
+
+## 📬 Contact
+
+For any queries, please contact:  
+atharvasawant3183@gmail.com 
+
+https://www.linkedin.com/in/atharvavsawant/
+
+
+
