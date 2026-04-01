@@ -54,11 +54,11 @@ Random Forest was selected as the final model due to:
 ---
 
 ## 📂 Project Structure
-|── app.py                    # Streamlit app 
-├── creditcardfraud.ipynb     # Model training & analysis 
-├── rf_model.pkl              # Final trained model 
-├── scaler.pkl                # Data scaler 
-├── features.pkl              # Feature list 
-├── requirements.txt          # Dependencies 
-└── README.md                 # Documentation
+- app.py                    # Streamlit app 
+- creditcardfraud.ipynb     # Model training & analysis 
+- rf_model.pkl              # Final trained model 
+- scaler.pkl                # Data scaler 
+- features.pkl              # Feature list 
+- requirements.txt          # Dependencies 
+- README.md                 # Documentation
 
